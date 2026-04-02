@@ -3,3 +3,15 @@ notebooks/
 
 # ignore .env files
 .env
+
+# ignore __pychache__ folders
+**/__pycache__/
+
+# igore .vscode settings
+.vscode/
+
+# ignore .ipynb_checkpoints
+**/.ipynb_checkpoints/
+
+# ignore all the __init__.py files
+**/__init__.py
