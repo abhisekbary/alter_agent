@@ -8,7 +8,9 @@ class Config(BaseSettings):
     pushover_token: str
     pushover_url:str = "https://api.pushover.net/1/messages.json"
     model_name: str = "gpt-4o"
-
+    prompt_file: str = "src/prompts/prompts.yaml"
+    user: str = 'Abhisek Behera'
+    user_role: str = 'Lead AI and Data Engineer'
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra='ignore')
 
 # function to get configuration with caching
