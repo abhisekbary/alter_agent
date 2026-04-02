@@ -1,0 +1,5 @@
+# Ignore Jupyter Notebook checkpoints 
+notebooks/
+
+# ignore .env files
+.env
