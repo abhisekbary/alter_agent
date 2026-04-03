@@ -11,6 +11,9 @@ class Config(BaseSettings):
     prompt_file: str = "src/prompts/prompts.yaml"
     user: str = 'Abhisek Behera'
     user_role: str = 'Lead AI and Data Engineer'
+    user_linkedin_profile: str = 'resources/linkedin_profile.pdf'
+    user_professional_summary: str = 'resources/professional_summary.yaml'
+
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra='ignore')
 
 # function to get configuration with caching

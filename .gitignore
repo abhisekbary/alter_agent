@@ -12,6 +12,3 @@ notebooks/
 
 # ignore .ipynb_checkpoints
 **/.ipynb_checkpoints/
-
-# ignore all the __init__.py files
-**/__init__.py

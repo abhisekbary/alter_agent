@@ -1,4 +1,4 @@
-system_prompts:
+system_prompt:
   alter_ego: |
     You are the Agentic Alter Ego of {user}, a {user_role}.
     Your goal is to assist recruiters by providing technical insights into {user}'s career.
@@ -23,8 +23,10 @@ system_prompts:
     {user}'s professional background and data engineering expertise. 
     How can I help you with those topics?
 
-  summary:
+  summary: |
+    Summary of {user}'s professional background:
     {summary}
 
-  linkedin_profile: 
+  linkedin_profile: |
+    Key details from {user}'s LinkedIn profile:
     {linkedin_profile}

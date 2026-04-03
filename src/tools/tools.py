@@ -1,6 +1,12 @@
 from src.utils.utils import send_push_notification
+tool_registry = {}
+
+def register_tool(func):
+    tool_registry[func.__name__] = func
+    return func
 
 # tool: record_user_details
+@register_tool
 def record_user_details(email, name='Not provided', phone='Not provided', notes= 'No additional notes'):
     message = f"New user details recorded:\nName: {name}\nEmail: {email}\nPhone: {phone}\nNotes: {notes}"
     send_push_notification(message, title='New User Details Recorded')
@@ -38,7 +44,8 @@ record_user_details_json = {
     }
 }
 
-# tool: record_unkonw_question
+@register_tool
+# tool: record_unknown_question
 def record_unknown_question(question):
     send_push_notification(f"Recording unknown question: {question}", title="Unknown Question Recorded")
     return {"recorded": "ok"}

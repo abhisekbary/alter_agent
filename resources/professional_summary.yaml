@@ -1,0 +1,166 @@
+profile:
+  name: Abhisek Behera
+  title: Lead AI and Data Engineer | AI & GenAI-Enabled Data Platforms
+  experience_years: 10+
+  location: Bangalore, India
+
+professional_summary: >
+  Lead AI and Data Engineer with 10+ years of experience designing and operating scalable
+  data platforms that power analytics and AI/ML use cases. Specialized in Lakehouse
+  architectures on Azure Databricks, building high-throughput ETL/ELT pipelines,
+  and enabling enterprise-scale feature engineering for machine learning systems.
+  Proven track record of delivering business impact through data-driven solutions,
+  including cost optimization, predictive analytics, and GenAI-powered applications.
+  Experienced in collaborating with cross-functional teams (AI, MLOps, product,
+  and domain experts) to translate business problems into production-grade data systems.
+
+core_competencies:
+  data_engineering:
+    - Lakehouse Architecture (Databricks, Delta Lake)
+    - Scalable ETL/ELT Pipeline Design
+    - Distributed Data Processing (PySpark)
+    - Data Modeling (Star Schema, Gold/Silver layers)
+    - Data Integration (ADF, ADLS Gen2)
+  ai_ml_enablement:
+    - Feature Engineering for ML pipelines
+    - Data platforms for AI/ML workloads
+    - Model data preparation and lifecycle support
+  generative_ai:
+    - Retrieval-Augmented Generation (RAG)
+    - Vector Search (Databricks Vector Search)
+    - LLM integration (Azure OpenAI, Mosaic AI)
+    - Semantic search systems
+  data_governance:
+    - Data Quality Frameworks (Great Expectations)
+    - Data validation and reliability
+    - Governance and compliance enablement
+  analytics_enablement:
+    - Databricks SQL
+    - Power BI dashboards
+    - Data products for business insights
+  programming_languages:
+    - Python (advanced)
+    - SQL (advanced)
+  cloud_platforms:
+    - Microsoft Azure (Databricks, ADLS Gen2, ADF, Azure OpenAI)
+
+key_projects:
+  - name: Connected Vehicle Analytics Platform
+    description: >
+      Designed and implemented a Lakehouse-based data platform processing 200GB+
+      of telemetry data daily from connected vehicles, enabling large-scale analytics
+      and ML feature generation.
+    impact:
+      - Reduced vehicle warranty cost by 20%
+      - Enabled downstream AI/ML models with 200+ engineered features
+    technologies:
+      - Azure Databricks
+      - Delta Lake
+      - PySpark
+      - ADF
+      - ADLS Gen2
+
+  - name: Vehicle Parts Failure Analytics
+    description: >
+      Built unified data platform integrating 10+ heterogeneous data sources for
+      failure analysis and predictive insights in automotive systems.
+    impact:
+      - Improved early defect detection by 35%
+      - Enabled engineering decision-making through curated datasets
+    technologies:
+      - PySpark
+      - Databricks SQL
+      - Power BI
+      - Data Modeling (Star Schema)
+
+  - name: GenAI-Powered Compliance Intelligence System
+    description: >
+      Developed a regulatory document search system using RAG architecture to automate
+      compliance workflows and improve information retrieval efficiency.
+    impact:
+      - Reduced manual effort by 70%
+      - Improved response relevancy by 30%
+    technologies:
+      - Azure OpenAI
+      - Databricks Vector Search
+      - Mosaic AI
+      - Embeddings & Semantic Retrieval
+
+leadership_and_collaboration:
+  - Led cross-functional collaboration with AI, MLOps, and domain SMEs
+  - Translated business problems into scalable data and AI solutions
+  - Enabled multiple teams with reliable and governed data platforms
+  - Drove adoption of modern data engineering and GenAI practices
+
+career_focus:
+  current_focus:
+    - Building scalable data platforms for AI/ML and GenAI use cases
+    - Enabling decision intelligence through Agentic data systems
+    - Integrating LLM-based applications with enterprise data
+  future_interest:
+    - AI/GenAI-driven data platforms
+    - ML Platform Engineering / Data + AI infrastructure
+    - Advanced analytics and decision intelligence systems
+
+strengths:
+  - Strong system design and architectural thinking
+  - Ability to bridge data engineering and AI/ML domains
+  - Business-impact-oriented execution
+  - High scalability and performance optimization expertise
+  - Structured problem-solving and analytical thinking
+
+professional_traits:
+  - Outcome-driven and impact-focused
+  - Strong ownership mindset
+  - Detail-oriented with emphasis on optimization
+  - Continuous learner with curiosity in emerging AI technologies
+
+notable_work:
+  patents: []
+  publications: []
+  notes: >
+    While no formal patents or publications are listed, work includes enterprise-scale
+    implementations in automotive analytics and GenAI-based compliance systems.
+
+tools_and_technologies:
+  big_data:
+    - Apache Spark
+    - PySpark
+    - Delta Lake
+  orchestration:
+    - Azure Data Factory
+    - Airflow
+  analytics_tools:
+    - Power BI
+    - Databricks SQL
+  devops:
+    - GitHub
+    - CI/CD pipelines
+    - Docker
+    - Kubernetes (basic exposure)
+  ai_ml: 
+    - Azure OpenAI
+    - Mosaic AI
+    - Databricks Vector Search
+    - Great Expectations (data quality)
+    - langchain (RAG pipelines)
+    - MLflow (model lifecycle support)
+    - Hugging Face (LLM integration)
+    - OpenAI SDKs
+    - CrewAI (GenAI orchestration)
+
+positioning_statement: >
+  Lead AI and Data Engineer specializing in building AI-ready data platforms and GenAI-enabled
+  systems, with proven ability to deliver measurable business impact through scalable,
+  governed, and high-performance data architectures.
+
+availability:
+  open_to_roles:
+    - Lead Data Engineer
+    - Staff Data Engineer
+    - AI / GenAI Data Platform Engineer
+    - ML Platform Engineer
+  preferred_domains:
+    - Product companies
+    - AI-first organizations
+    - Data-driven platforms
